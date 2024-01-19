@@ -136,7 +136,6 @@ const CONFIG = {
 	firstlistsContainer: [
 		{
 			icon: 'tv',
-			name: 'Media',
 			id: '1',
 			links: [
 				{
@@ -159,7 +158,6 @@ const CONFIG = {
 		},
 		{
 			icon: 'crown',
-			name: 'Chess',
 			id: '2',
 			links: [
 				{
@@ -186,7 +184,6 @@ const CONFIG = {
 	secondListsContainer: [
 		{
 			icon: 'code',
-			name: 'Code',
 			id: '1',
 			links: [
 				{
@@ -209,7 +206,6 @@ const CONFIG = {
 		},
 		{
 			icon: 'graduation-cap',
-			name: 'uni',
 			id: '2',
 			links: [
 				{
