@@ -218,7 +218,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Mensauni',
-					link: 'https://www.mensauni.de',
+					link: 'https://mensauni.de/',
 				},
 				{
 					name: 'Zeus',
