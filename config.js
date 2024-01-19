@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Max',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -20,20 +20,20 @@ const CONFIG = {
 	greetingMorning: 'Good morning!',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Up late?',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: '570210ec1d1a1b96f5265bfe1ce38208', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '47.66033',
+	defaultLongitude: '9.17582',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -42,7 +42,7 @@ const CONFIG = {
 	changeThemeByOS: true,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -135,46 +135,48 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'tv',
+			name: 'Media',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'YouTube',
+					link: 'https://www.youtube.com/',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Spotify',
+					link: 'https://open.spotify.com',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Reddit',
+					link: 'https://www.reddit.com',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Prime',
+					link: 'https://www.amazon.de/Amazon-Video/',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'crown',
+			name: 'Chess',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'LiChess',
+					link: 'https://www.lichess.org',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Chess.com',
+					link: 'https://www.chess.com',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'ChessTempo',
+					link: 'https://www.chesstempo.com',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Chessable',
+					link: 'https://www.chessable.com',
 				},
 			],
 		},
@@ -183,46 +185,48 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'code',
+			name: 'Code',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'GitHub',
+					link: 'https://www.github.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'AoC',
+					link: 'https://www.adventofcode.com',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'GPT',
+					link: 'https://chat.openai.com',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'stackoverflow',
+					link: 'https://www.stackoverflow.com',
 				},
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'graduation-cap',
+			name: 'uni',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
+					name: 'Ilias',
+					link: 'https://ilias.uni-konstanz.de/',
 				},
 				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					name: 'Git',
+					link: 'https://gitlab.inf.uni-konstanz.de/',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'Mensauni',
+					link: 'https://www.mensauni.de',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Zeus',
+					link: 'file:///zeus.uni-konstanz.de/',
 				},
 			],
 		},
